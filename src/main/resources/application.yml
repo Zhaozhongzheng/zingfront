@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3366/zingfront?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: zingfron
+    password: eeff1372d819ae04
+    primary:
+      max-idle: 10
+      max-wait: 10000
+      min-idle: 5
+      initial-size: 5
+      validation-query: SELECT 1
+      test-on-borrow: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 18800
+#mybatis
+mybatis:
+  #扫描包
+  type-aliases-package: com.zingfront.model
+  #加载xml文件
+  mapper-locations: classpath:mapper/*Mapper.xml
+server:
+  port: 8088
