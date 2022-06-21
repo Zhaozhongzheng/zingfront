@@ -20,7 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <mapper.starter.version>2.1.5</mapper.starter.version>
-        <mysql.version>5.1.32</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <skipTests>true</skipTests>
     </properties>
 
